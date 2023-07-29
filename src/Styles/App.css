@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+h1{
+    font-size: 4rem;
+}
+.goUp:hover{
+    cursor: pointer;
+    color: black;
+}
+h3{
+
+    color: grey;
+    transition: all 0.3s;
+    font-weight: 100;
+    font-size: 15px;
+    margin: 15px;
+}
+.chakra-select__icon-wrapper{
+    visibility: hidden;
+}
+.customPlaceholder::placeholder{
+    color: red;
+}
+.downArrow{
+    transition: all 0.3s;
+    transform: rotate(180deg);
+}
+.upArrow{
+    transition: all 0.3s;
+    transform: rotate(0deg);
+}
